@@ -7,3 +7,10 @@ console.log(position);
 let check = message.includes("love"); //return true is item exist;
 console.log(check);
 
+// starts with:
+let srt = message.startsWith("I");
+console.log(srt);
+
+// ends with:
+let end = message.endsWith("h");
+console.log(end);
